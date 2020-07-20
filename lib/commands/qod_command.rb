@@ -20,7 +20,7 @@ module InspireBot
 
       command 'date' do |client, data, _match|
         t = Time.new
-        client.say(channel: data.channel, text: "Today is #{t.strftime('%a , %B %d %Y')}")
+        client.say(channel: data.channel, text: "Today is #{t.strftime('%a , %B %d , %Y')}")
       end
 
       command 'picsum' do |client, data, _match|
