@@ -47,6 +47,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
+    geocoder (1.6.3)
     gli (2.19.2)
     hashie (4.1.0)
     i18n (1.8.3)
@@ -103,6 +104,7 @@ DEPENDENCIES
   celluloid-io
   dotenv
   faraday
+  geocoder
   puma
   rack
   rss
