@@ -73,15 +73,15 @@ Pictures:  https://picsum.photos/
 
 ## Gems Used
 
-gem 'addressable'
-gem 'async-websocket', '~>0.8.0'
-gem 'celluloid-io'
-gem 'dotenv'
-gem 'faraday'
-gem 'puma'
-gem 'rack'
-gem 'rubocop', '~>0.81.0'
-gem 'slack-ruby-bot'
+    # gem 'addressable'
+    # gem 'async-websocket', '~>0.8.0'
+    # gem 'celluloid-io'
+    # gem 'dotenv'
+    # gem 'faraday'
+    # gem 'puma'
+    # gem 'rack'
+    # gem 'rubocop', '~>0.81.0'
+    # gem 'slack-ruby-bot'
 
 
 ## Author(s)
