@@ -5,8 +5,13 @@ module InspireBot
       desc 'This bot will generate an inspirational quote of the day for you'
 
       command :qod do
-        title 'get an inspirational quote of the day'
+        title 'qod'
         desc 'This command will give you a randomly generated inspirational quote of the day'
+      end
+
+      command :time do
+        title 'time'
+        desc 'Current Local Time'
       end
     end
   end
