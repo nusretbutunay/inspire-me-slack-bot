@@ -11,7 +11,7 @@ module InspireBot
       @uri = URI(@url)
       @response = Net::HTTP.get(@uri)
       forecast = JSON.parse(@response)
-      "The weather in #{city}:  #{forecast['weather'][0]['description']}" \
+      "The weather in #{city}:  #{forecast['weather'][0]['description']} \n" \
         "The temperature in #{city}:  #{((forecast['main']['temp']).to_i - 273.15).truncate(2)} °C"
     end
   end
