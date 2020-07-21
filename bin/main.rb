@@ -1,5 +1,5 @@
 # !/usr/bin/env ruby
 require 'slack-ruby-bot'
-require './lib/bot'
-require './lib/commands/qod_command'
 require 'rack'
+require_relative '../lib/bot'
+require_relative '../lib/commands/qod_command'

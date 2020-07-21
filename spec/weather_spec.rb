@@ -1,4 +1,4 @@
-require '../lib/helpers/weather'
+require_relative '../lib/helpers/weather'
 
 describe InspireBot::Weather do
   let(:forecast) { InspireBot::Weather.new }

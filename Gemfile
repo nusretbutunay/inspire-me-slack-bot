@@ -8,3 +8,10 @@ gem 'puma'
 gem 'rack'
 gem 'rubocop', '~>0.81.0'
 gem 'slack-ruby-bot'
+
+group :development, :test do
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'vcr'
+  gem 'webmock'
+end

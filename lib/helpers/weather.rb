@@ -5,6 +5,7 @@ module InspireBot
   attr_reader :forecast
   class Weather
     API_KEY = '1fdc8f2066cefcc799fcd789b3199c56'.freeze
+    private_constant :API_KEY
 
     def current_weather(city)
       @url = "http://api.openweathermap.org/data/2.5/weather?q=#{city}&appid=1fdc8f2066cefcc799fcd789b3199c56"

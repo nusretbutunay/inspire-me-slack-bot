@@ -1,4 +1,4 @@
-require '../lib/helpers/random_quote'
+require_relative '../lib/helpers/random_quote'
 
 describe InspireBot::RandomQuote do
   let(:quote) { InspireBot::RandomQuote.new }
