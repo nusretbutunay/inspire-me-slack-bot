@@ -105,7 +105,7 @@ GEM
       websocket-driver
     thread_safe (0.3.6)
     timers (4.3.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     vcr (6.0.0)
@@ -120,6 +120,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   addressable
